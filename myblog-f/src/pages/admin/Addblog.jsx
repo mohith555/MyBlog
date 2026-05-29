@@ -132,9 +132,9 @@
 
 // export default Addblog
 import React, { useEffect, useRef, useState } from 'react';
-import { blogCategories, assets } from '../../assets/assets';
+import { blogCategories, assets } from '../../assets/assets.js';
 import Quill from 'quill';
-import { useAppContext } from '../../context/AppContext';
+import { useAppContext } from '../../context/AppContext.jsx';
 import { toast } from 'react-hot-toast';
 import {marked} from 'marked';
 

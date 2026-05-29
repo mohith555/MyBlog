@@ -1,7 +1,7 @@
 import React,{useEffect, useState} from 'react'
-import { blog_data } from '../../assets/assets';
+import { blog_data } from '../../assets/assets.js';
 import Blogtable from '../../components/admin/Blogtable.jsx';
-import { useAppContext } from '../../context/AppContext';
+import { useAppContext } from '../../context/AppContext.jsx';
 import toast from 'react-hot-toast';
 
 const Listblog = () => {

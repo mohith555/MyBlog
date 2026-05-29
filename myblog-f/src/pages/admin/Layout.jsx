@@ -1,8 +1,8 @@
 import React from 'react'
-import {assets} from  '../../assets/assets'
+import {assets} from  '../../assets/assets.js'
 import { useNavigate,Outlet } from 'react-router-dom'
 import Sidebar from '../../components/admin/Sidebar.jsx'
-import { useAppContext } from '../../context/AppContext';
+import { useAppContext } from '../../context/AppContext.jsx';
 
 const Layout = () => {
   const {axios,setToken,navigate} = useAppContext();

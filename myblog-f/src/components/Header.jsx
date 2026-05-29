@@ -1,5 +1,5 @@
 import React,{useRef} from 'react'
-import { assets } from '../assets/assets'   
+import { assets } from '../assets/assets.js'   
 import { useAppContext } from '../context/AppContext.jsx'
 
 const Header = () => {
