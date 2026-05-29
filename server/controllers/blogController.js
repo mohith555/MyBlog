@@ -48,7 +48,7 @@
 import fs from 'fs';
 import imagekit from '../configs/imagekit.js';
 import { toFile } from '@imagekit/nodejs';
-import Blog from '../models/Blog.js';
+import Blog from '../models/blog.js';
 import Comment from '../models/Comment.js';
 import main from '../configs/gemini.js';
 
